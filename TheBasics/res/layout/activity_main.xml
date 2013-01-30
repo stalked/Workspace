@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/mockup">
+
+    <TextView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:text="@string/hello_world" />
+    
+    <ScrollView android:layout_width="fill_parent" android:layout_height="195dp">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+	   	    <Button
+		        android:id="@+id/tutorial" android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="center"
+		        android:text="@string/menu_settings" android:textSize="25dp"
+		        android:textStyle="bold" />
+		    
+		    <Button
+		        android:id="@+id/tutorial1" android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="center"
+		        android:text="@string/menu_settings" android:textSize="25dp"
+		        android:textStyle="bold" />
+		    <Button
+		        android:id="@+id/tutorial2" android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="center"
+		        android:text="@string/menu_settings" android:textSize="25dp"
+		        android:textStyle="bold" />
+		    <Button
+		        android:id="@+id/tutorial3" android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="center"
+		        android:text="@string/menu_settings" android:textSize="25dp"
+		        android:textStyle="bold" />
+		    <Button
+		        android:id="@+id/tutorial4" android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="center"
+		        android:text="@string/menu_settings" android:textSize="25dp"
+		        android:textStyle="bold" />
+		    <Button
+		        android:id="@+id/tutorial5" android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" android:gravity="center"
+		        android:text="@string/menu_settings" android:textSize="25dp"
+		        android:textStyle="bold" />
+	    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

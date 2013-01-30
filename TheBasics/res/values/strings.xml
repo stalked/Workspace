@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Project Kim</string>
+    <string name="hello_world">Welcome to Kims world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Project Kim</string>
+
+</resources>

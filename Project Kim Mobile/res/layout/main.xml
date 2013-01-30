@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<ImageView 
+	    android:id="@+id/mainMenuImage"
+		android:src="@drawable/mockup_home"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	</ImageView>
+	
+	<RelativeLayout
+		android:id="@+id/buttons2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginTop="260dp">
+		
+		<ImageButton
+		    android:id="@+id/btnStartGame"
+		    android:layout_width="260dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_marginLeft="30dp"
+		    android:clickable="true"
+		    android:src="@drawable/startselector" >
+
+		</ImageButton>
+		
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/buttons"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="20dp">
+		
+	    <ImageButton
+		    android:id="@+id/btnTutorial"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginBottom="18dp"
+		    android:layout_marginLeft="18dp"
+		    android:clickable="true"
+		    android:src="@drawable/tutorialselector" />
+		
+		<ImageButton
+		    android:id="@+id/btnSettings"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginBottom="18dp"
+		    android:layout_marginLeft="100dp"
+		    android:clickable="true"
+		    android:src="@drawable/settingsselector" />
+		
+		<ImageButton
+		    android:id="@+id/btnCredits"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginBottom="18dp"
+		    android:layout_marginLeft="200dp"
+		    android:clickable="true"
+		    android:src="@drawable/creditsselector" />
+		
+	</RelativeLayout>
+	
+</RelativeLayout>
